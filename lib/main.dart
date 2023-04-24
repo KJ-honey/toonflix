@@ -143,6 +143,14 @@ class App extends StatelessWidget {
                           style: TextStyle(
                               fontSize: 13, color: Colors.white.withAlpha(100)),
                         ),
+                        const SizedBox(
+                          width: 60,
+                        ),
+                        const Icon(
+                          Icons.euro_rounded,
+                          color: Colors.white,
+                          size: 98,
+                        ),
                       ],
                     )
                   ],
